@@ -25,11 +25,11 @@ var bookmarkIcons = document.querySelectorAll(".bi.bi-bookmark");
 
 bookmarkIcons.forEach(function(bookmarkIcon)  {
     var postId = bookmarkIcon.id;
-    var liked = localStorage.getItem(postId);
+    var bookmarked = localStorage.getItem(postId);
 
-    if (liked === 'true') {
-        likeIcon.classList.add("bi-bookmark-fill");
-        likeIcon.classList.remove("bi-bookmark");
+    if (bookmarked === 'true') {
+        bookmarkIcon.classList.add("bi-bookmark-fill");
+        bookmarkIcon.classList.remove("bi-bookmark");
     }
 
     bookmarkIcon.addEventListener("click", function() {
