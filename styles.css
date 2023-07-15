@@ -158,3 +158,26 @@
 .linkDecoration a:hover {
     color: #000;
 }
+
+@media screen and (max-width: 500px){
+    .profilePrincipal {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+
+    .profile img {
+        border: 2px solid #e1306c;
+        border-radius: 50%;
+        width: 77px;
+        height: 77px;
+        padding: 2px;
+        margin: 4px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .profilePrincipal {
+        padding-top: 20px;
+        padding-left: 0px;
+    }
+}
