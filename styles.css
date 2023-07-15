@@ -142,3 +142,19 @@
     border-radius: 5px;
     transition: 0.4s;
 }
+
+.linkDecoration a{
+    text-decoration: none;
+}
+
+.linkDecoration a:visited {
+    color: #000;
+}
+
+.linkDecoration a:active {
+    color: #000;
+}
+
+.linkDecoration a:hover {
+    color: #000;
+}
