@@ -161,17 +161,36 @@
 
 @media screen and (max-width: 500px){
     .profilePrincipal {
-        padding-top: 20px;
+        padding-top: 0px;
         padding-left: 0px;
     }
 
     .profile img {
         border: 2px solid #e1306c;
         border-radius: 50%;
-        width: 77px;
-        height: 77px;
+        width: 120px;
+        height: 120px;
         padding: 2px;
         margin: 4px;
+    }
+
+    .profileIcon{
+        width: 40rem;
+        
+    }
+
+    .name{
+        padding-right: 6rem;
+    }
+
+    .followers{
+        padding-right: 7rem;
+    }
+
+    .bio{
+        margin: 0;
+        padding: 0;
+
     }
 }
 
