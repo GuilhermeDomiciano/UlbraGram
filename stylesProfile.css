@@ -161,6 +161,8 @@ nav.contentNav{
     display: flex;
     border-top: #eee solid 1px;
     justify-content: center;
+    padding-left: 460px;
+    padding-right: 460px;
 }
 
 nav.contentNav div{
@@ -184,4 +186,10 @@ div.contentFeed{
 div.post img{
     width: 309px;
     height: 309px;
+}
+
+ul.menu li:hover{
+    background-color: #eee;
+    border-radius: 8px;
+    transition: 0.3s;
 }
