@@ -166,7 +166,7 @@ nav.contentNav{
 }
 
 nav.contentNav div{
-    padding: 10px 25px;
+    padding: 0px 25px;
 }
 
 nav.contentNav a{
@@ -193,3 +193,33 @@ ul.menu li:hover{
     border-radius: 8px;
     transition: 0.3s;
 }
+
+@media screen and (max-width: 500px) {
+    div.containerNavBar{
+        display: none;
+    }
+
+    div.profile{
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    div.profilePicture{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    nav.contentNav{
+        padding-left: 300px;
+        padding-right: 150px;
+        display: flex;
+    }
+
+    div.post img{
+        width: 139px;
+        height: 139px;
+    }
+}
+    
