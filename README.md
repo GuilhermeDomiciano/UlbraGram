@@ -21,4 +21,9 @@ Você pode acessar o projeto no seguinte endereço: <h2>https://ulbragram-domici
 <h3>Em andamento</h3>
 - Trabalhando para tornar a página de perfil responsiva em dispositivos móveis. Já finalizado a adaptação para tablets. <br>
 <br>
+<br>
+<h3>Informações de contato:</h3><br>
+- Whattsap: (63) 984498356<br>
+- Email: guilhermedomicianosilva@gmail.com <br>
+<br>
 <h4>Sinta-se à vontade para contribuir com melhorias ou sugestões para o projeto!</h4>
